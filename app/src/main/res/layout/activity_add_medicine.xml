@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#04354B"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".addedit_medicine">
+
+    <EditText
+        android:id="@+id/name_edit_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:hint="Name of medicine"
+        android:inputType="textMultiLine"
+        android:textColor="#008577"
+        android:textColorHint="#008577" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Select the medicine type :"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#008577" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/per_btn"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="12dp"
+            android:layout_weight="1"
+            android:onClick="pervious"
+            android:text="Pervious" />
+
+        <ImageView
+            android:id="@+id/med_icon"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:src="@drawable/tablet" />
+
+        <Button
+            android:id="@+id/next_btn"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="12dp"
+            android:layout_weight="1"
+            android:onClick="next"
+            android:text="Next" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textview3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="5dp"
+        android:text="Tablet"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#008577" />
+
+    <EditText
+        android:id="@+id/dose_edit_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:hint="Number of dose"
+        android:inputType="textMultiLine"
+        android:textColor="#008577"
+        android:textColorHint="#008577" />
+
+    <EditText
+        android:id="@+id/Q_p_B_edit_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:hint="Minimum Quantity"
+        android:inputType="textMultiLine"
+        android:textColor="#008577"
+        android:textColorHint="#008577" />
+
+    <EditText
+        android:id="@+id/c_q_edit_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:hint="Current Quantity"
+        android:inputType="textMultiLine"
+        android:textColor="#008577"
+        android:textColorHint="#008577" />
+
+    <EditText
+        android:id="@+id/T_edit_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:hint="Time"
+        android:inputType="textMultiLine"
+        android:textColor="#008577"
+        android:textColorHint="#008577" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:onClick="time"
+        android:text="Set time" />
+
+    <EditText
+        android:id="@+id/D_edit_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:hint="Date"
+        android:inputType="textMultiLine"
+        android:textColor="#008577"
+        android:textColorHint="#008577" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:onClick="date_btn"
+        android:text="Set Date" />
+
+    <Spinner
+        android:id="@+id/reminder_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="5dp"
+        android:backgroundTint="#008577"
+        android:foregroundTint="#008577"></Spinner>
+
+</LinearLayout>

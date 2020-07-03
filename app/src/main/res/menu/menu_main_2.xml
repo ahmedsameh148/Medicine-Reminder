@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.medicinereminder.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="Delete All Reminders"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/viewtodayMed"
+        android:orderInCategory="100"
+        android:title="View today medicine"
+        app:showAsAction="never" />
+</menu>

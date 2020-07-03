@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="8dp"
+    android:layout_marginStart="8dp"
+    android:layout_marginTop="8dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:padding="8dp"
+        android:background="#ebf0f6"
+        >
+
+
+        <TextView
+            android:id="@+id/reminder_txt_view"
+            android:layout_width="165dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="80dp"
+            android:layout_weight="0"
+            android:paddingLeft="45dp"
+            android:paddingTop="5dp"
+            android:text="reminder" />
+
+        <TextView
+            android:id="@+id/date_time_txt_view"
+            android:layout_width="167dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="50dp"
+            android:layout_weight="0"
+            android:paddingLeft="45dp"
+            android:paddingTop="10dp"
+            android:text="Date and time" />
+
+        <TextView
+            android:id="@+id/name_txt_view"
+            android:layout_width="167dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="15dp"
+            android:layout_weight="0"
+            android:paddingLeft="50dp"
+            android:paddingTop="10dp"
+            android:text="Fares"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/med_img_view"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            app:srcCompat="@drawable/tablet" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#111633"
+    android:orientation="vertical">
+
+    <TimePicker
+        android:id="@+id/time_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></TimePicker>
+
+    <Button
+        android:id="@+id/done_btu"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="140dp"
+        android:text="Done" />
+
+</LinearLayout>
